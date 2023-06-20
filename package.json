@@ -1,7 +1,7 @@
 {
   "name": "ashton_website",
   "version": "0.1.0",
-  "homepage": "/~axiong12/build",
+  "homepage": "https://ashtonxiong.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -26,6 +26,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "hg-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -48,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }

@@ -1,0 +1,31 @@
+.topbar-info {
+    display: flex;
+    /* z-index: 9999;     */
+    /* background-color: #121212; */
+    background-image: linear-gradient(to right bottom, #c0414d, #d0795c, #dbaa7f, #e8d6b4, #fffff1);
+}
+
+.social-container {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .icon {
+    color: white;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  .icon:visited{
+    color: white;
+  }
+
+  .menu-button {
+    color: white;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2); /* Increase the size of the icon on hover */
+  }

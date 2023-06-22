@@ -1,7 +1,7 @@
 {
   "name": "ashton_website",
   "version": "0.1.0",
-  "homepage": "https://ashtonxiong.github.io/personal-website",
+  "homepage": "https://ashtonxiong.github.io/Personal-Website",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

@@ -8,7 +8,7 @@ import InfoPage from './components/InfoPage'
 import ProjectPage from "./components/ProjectPage"
 import backgroundVideo from './videos/background1.mp4'
 import Footer from "./components/Footer"
-
+import AboutMe from './components/AboutMe';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 let page = "home"
@@ -20,9 +20,11 @@ const changeAddPage = (info) => {
 root.render(
   <React.StrictMode>
     <TopBar changeCurrentPage={changeAddPage} currentPage={page} />
-    {/* <InfoPage video={backgroundVideo}/> */}
-    {/* <App /> */}
-    {/* ({page === "about me" ? <InfoPage /> :  }) */}
+    {page === 'about me' && <AboutMe />}
+    {page === "home" && <InfoPage />}
+    {/* <InfoPage />
+    <AboutMe /> */}
+
     <Footer />
   </React.StrictMode>
 );

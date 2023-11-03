@@ -1,14 +1,10 @@
-/* .header-container {
-    position: relative;
-  } */
-
-    * {
-    font-family:'Times New Roman', Times, serif;
+  /* .aboutme-header-content {
+    height: 50%;
   }
-  
-  .centered-content {
+
+  .aboutme-centered-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+  } */

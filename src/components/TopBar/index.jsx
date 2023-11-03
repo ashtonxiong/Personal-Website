@@ -77,7 +77,7 @@ class TopBar extends React.Component {
                         <br />
                     </Toolbar>
             </AppBar>
-            {this.state.page}
+            {/* {this.state.page} */}
           </Box>
         )
     }

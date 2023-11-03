@@ -1,7 +1,5 @@
-.topbar-info {
+/* .topbar-info {
     display: flex;
-    /* z-index: 9999;     */
-    /* background-color: #121212; */
     background-image: linear-gradient(to right bottom, #c0414d, #d0795c, #dbaa7f, #e8d6b4, #fffff1);
 }
 
@@ -15,7 +13,7 @@
   
   .icon {
     color: white;
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transition: transform 0.3s ease;
   }
 
   .icon:visited{
@@ -27,5 +25,5 @@
   }
   
   .icon:hover {
-    transform: scale(1.2); /* Increase the size of the icon on hover */
-  }
+    transform: scale(1.2);
+  } */

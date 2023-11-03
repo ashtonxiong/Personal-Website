@@ -1,4 +1,4 @@
-* {
+/* * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
@@ -13,10 +13,10 @@
   }
 
 .text-container {
-    padding: 10px; /* Padding around the text */
-    word-wrap: break-word; /* Enable word wrapping */
-    width: fit-content; /* Adjust the width based on the content */
-    max-width: 60%; /* Limit the width to the container's width */
+    padding: 10px; /* Padding around the text 
+    word-wrap: break-word; /* Enable word wrapping 
+    width: fit-content; /* Adjust the width based on the content 
+    max-width: 60%; /* Limit the width to the container's width 
     position: absolute;
   }
 
@@ -61,4 +61,4 @@
     line-height: 1.5em;
     width: 96%;
     word-wrap: break-word;
-  }
+  } */
